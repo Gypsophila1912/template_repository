@@ -79,3 +79,22 @@ main ← develop ← feature/xxx
 Makefile の各コマンドに実際のコマンドを書く
 flake.nix に使う言語のランタイムを追記
 docker-compose.yml を使う構成に合わせて編集
+
+---
+
+## メモ
+
+.editorconfig
+「エディタの設定をチーム全員で統一する」 ファイル
+
+.envrc
+「そのフォルダに cd するだけで開発環境に自動で入れる」 ファイル
+
+flake.nix
+「開発環境をコードで定義する」 ファイル
+
+lefthook.yml
+「git操作の直前に自動でチェックを走らせる」 ファイル
+
+Makefile
+「プロジェクトのコマンドを統一する」 ファイル
