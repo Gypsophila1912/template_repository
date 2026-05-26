@@ -71,3 +71,11 @@ main ← develop ← feature/xxx
 - PRは [PRテンプレート](.github/PULL_REQUEST_TEMPLATE.md) に沿って記入してください
 - ブランチ命名規則: `feature/`, `fix/`, `chore/`, `docs/`
 - コミットメッセージ: [Conventional Commits](https://www.conventionalcommits.org/ja/) 準拠推奨
+
+---
+
+## クローン後に行うこと(任意)
+
+Makefile の各コマンドに実際のコマンドを書く
+flake.nix に使う言語のランタイムを追記
+docker-compose.yml を使う構成に合わせて編集
